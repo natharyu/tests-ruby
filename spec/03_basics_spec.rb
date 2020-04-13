@@ -29,8 +29,6 @@ describe '42 finder' do
   # array_42 takes an array as parameter and returns:
   # - true if there's a 42 in the array items
   # - false otherwise
-  # Hint: Should be 2 lines (and can be one :)
-  # Hint: google ruby array each
   it 'finds 42' do
     expect(array_42([1, 2, 3, 4, 5, 6, 7 , 8, 9, 10])).to eq false
     expect(array_42([1, 2, 3, 4, 5, 6, 7 , 8, 9, 42, 21, 10.5])).to eq true
